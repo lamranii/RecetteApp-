@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="app_logo">Application Logo</string>
+    <string name="add_recipe_desc">Ajouter une nouvelle recette</string>
+    <string name="back">Back</string>
+    <string name="image_recette">Recipe image</string>
+    <string name="prep_time_format">%s min</string>
+
+    <string name="back_button_desc">Bouton retour</string>
+    <string name="recipe_image_desc">Image de la recette</string>
+    <string name="prep_time">Temps de préparation : %1$d minutes</string>
+    <string name="recette_image_desc">Image de la recette</string>
+    <string name="titre_par_defaut">Titre</string>
+    <string name="categorie_par_defaut">Catégorie</string>
+    <string name="select_image">Choisir une image</string>
+    <string name="permission_required">Permission requise</string>
+    <string name="image_permission_rationale">Cette permission est nécessaire pour sélectionner des images</string>
+    <string name="enable_in_settings">Veuillez activer la permission dans les paramètres de l\'application</string>
+    <string name="allow">Autoriser</string>
+    <string name="cancel">Annuler</string>
+    <string name="settings">Paramètres</string>
+
+    <string name="recipe_save_failed">Failed to save recipe.</string>
+    <string name="error_required">This field is required</string>
+    <string name="image_load_error">Failed to load image</string>
+    <string name="category_error">Category not specified</string>
+    <string name="no_recipes_found">No recipes found for %1$s</string>
+    <string name="add_photo">Choisir une source d\'image</string>
+    <string name="ingredients_title">Ingrédients</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="preparation_time">%s min</string>
+    <string name="preparation_time_format">%s minutes</string>
+
+    <string-array name="image_source_options">
+        <item>Prendre une photo</item>
+        <item>Choisir depuis la galerie</item>
+        <item>Annuler</item>
+    </string-array>
+</resources>

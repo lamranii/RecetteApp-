@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="64dp"
+        android:clipToPadding="false">
+
+        <!-- En-tête -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recettes"
+            android:textSize="24sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnAddRecette"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter une recette"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#FF9800"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            android:paddingVertical="12dp"
+            android:elevation="4dp"
+            android:drawableStart="@drawable/ic_add"
+            android:drawablePadding="8dp"/>
+
+        <!-- RecyclerView pour les recettes -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewRecettes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:paddingBottom="72dp"
+            android:scrollbars="vertical"/>
+
+        <!-- FAB Retour -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="Retour"
+            android:elevation="8dp"
+            app:backgroundTint="#FF9800"
+            app:borderWidth="0dp"
+            app:maxImageSize="32dp"
+            app:fabSize="normal"/>
+    </LinearLayout>
+</ScrollView>
